@@ -396,6 +396,10 @@ img {
   overflow: hidden;
 }
 
+.overlay:hover {
+  transform: translateY(0%);
+}
+
 .overlay-p {
   position: absolute;
   top: 0;
