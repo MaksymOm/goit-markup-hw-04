@@ -426,6 +426,9 @@ img {
   margin-bottom: 16px;
 }
 .box-footer {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
   display: flex;
 }
 
