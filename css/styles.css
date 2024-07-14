@@ -316,9 +316,10 @@ img {
 }
 
 .icon-list {
+  justify-content: center;
   display: flex;
   gap: 24px;
-  padding: 0 16px 32px 16px;
+  padding: 8px 16px 8px 16px;
 }
 
 .icon-item {
@@ -338,11 +339,15 @@ img {
 }
 
 .icon-link:hover {
-  background-color: #31d0aa;
+  background-color: #404bbf;
+}
+
+.icon-link:focus {
+  background-color: #404bbf;
 }
 
 .icon-icon {
-  fill: transparent;
+  fill: #f4f4fd;
 }
 
 .btt {
