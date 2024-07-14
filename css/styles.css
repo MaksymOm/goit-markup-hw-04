@@ -431,6 +431,7 @@ img {
   margin: 0 auto;
   padding: 0 15px 0 15px;
   display: flex;
+  align-items: baseline;
 }
 
 .logo-footer {
@@ -439,6 +440,11 @@ img {
 
 .footer-soc {
   box-sizing: border-box;
+}
+
+.benefits-svg {
+  height: 64px;
+  width: 64px;
 }
 
 .footer-soc-p {
