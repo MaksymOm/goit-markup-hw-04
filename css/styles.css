@@ -426,20 +426,22 @@ img {
   margin-bottom: 16px;
 }
 .box-footer {
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
+  display: flex;
+}
+
+.logo-footer {
+  margin-right: 120px;
 }
 
 .footer-soc {
   box-sizing: border-box;
-  padding-left: 120px;
 }
 
 .footer-soc-p {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
   display: flex;
   margin-left: 0;
   margin-bottom: 16px;
