@@ -148,8 +148,17 @@ img {
 }
 
 .hero {
-  background: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('/images/hero.jpg');
+
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: 100%;
 }
 
 .hero-title {
@@ -189,6 +198,18 @@ img {
 
 .benefits {
   padding: 120px 0;
+}
+
+.benefits-img-d {
+  flex-basis: calc((100% - 72px) / 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background: #f4f4fd;
+  width: 264px;
+  height: 112px;
 }
 
 .benefits-ul {
@@ -276,8 +297,37 @@ img {
   text-align: center;
 }
 
+.icon-list {
+  display: flex;
+  gap: 24px;
+  padding: 0 16px 32px 16px;
+}
+
+.icon-item {
+  height: 40px;
+  width: 40px;
+}
+
+.icon-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.icon-link:hover {
+  background-color: #31d0aa;
+}
+
+.icon-icon {
+  fill: transparent;
+}
+
 .btt {
-  padding: 32px 0;
+  padding: 24px 0;
 }
 
 .portfolio {
@@ -308,6 +358,36 @@ img {
 }
 .portfolio-li {
   flex-basis: calc((100% - 48px) / 3);
+}
+
+.box {
+  position: relative;
+  width: 360px;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-image: url(../images/Cashless-Payment.jpg);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  transform: translatey(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.box:hover .overlay {
+  transform: translatey(0);
+}
+.overlay p {
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
 }
 
 .app {
@@ -344,4 +424,24 @@ img {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+}
+.box-footer {
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.footer-soc {
+  box-sizing: border-box;
+  padding-left: 120px;
+}
+
+.footer-soc-p {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #fff;
+  display: flex;
+  margin-left: 0;
+  margin-bottom: 16px;
+  padding-left: 16px;
 }
