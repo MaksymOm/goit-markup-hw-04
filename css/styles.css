@@ -318,10 +318,10 @@ img {
 }
 
 .icon-list {
+  margin-top: 8px;
   justify-content: center;
   display: flex;
   gap: 24px;
-  padding: 8px 16px 8px 16px;
 }
 
 .icon-item {
